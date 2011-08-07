@@ -36,7 +36,7 @@
 #------------------------------------------------------------------------------
 # Default locale is American English.
 #
-:locale: "en-US"
+:locale: "en-GB"
 
 # By default individual users can't pick their own locale and are presented
 # with the one set above. To enable language selection in User/Profile set
@@ -139,12 +139,12 @@ task_calendar_with_time: true
 #
 #------------------------------------------------------------------------------
 account_category:
-  - :affiliate
-  - :competitor
+  # - :affiliate
+  # - :competitor
   - :customer
   - :partner
-  - :reseller
-  - :vendor
+  # - :reseller
+  # - :vendor
 
 account_category_color:
   :affiliate   : lavender
@@ -208,11 +208,11 @@ lead_source:
 #------------------------------------------------------------------------------
 opportunity_stage:
   - :prospecting
-  - :analysis
-  - :presentation
+  # - :analysis
+  # - :presentation
   - :proposal
-  - :negotiation
-  - :final_review
+  # - :negotiation
+  # - :final_review
   - :won
   - :lost
 
@@ -232,11 +232,11 @@ task_category:
   - :call
   - :email
   - :follow_up
-  - :lunch
+  # - :lunch
   - :meeting
   - :money
-  - :presentation
-  - :trip
+  # - :presentation
+  # - :trip
 
 task_category_color:
   :call         : Silver
