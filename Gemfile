@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
-# webby node installs 0.9.2, so explicitly uninstall 0.9.2 via SSH to avoid conflict
+# webby node installs 0.9.2, so explicitly uninstall 0.9.2 via SSH to avoid conflict 
 gem 'rake',  '0.8.7'
 
 # Loads the database adapter gem based on config/database.yml (Default: mysql2)
