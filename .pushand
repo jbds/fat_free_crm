@@ -1,0 +1,2 @@
+#! /bin/bash
+phd $0 fat_free_crm fat_free_crm
