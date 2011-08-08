@@ -90,7 +90,7 @@ private
     # the actual locale might be unknown.
     if !Setting.locale || !Setting.account_category
       raise FatFreeCRM::ObsoleteSettings, <<-OBSOLETE
-        It looks like you are upgrading from the older version of Fat Free CRM.
+        It looks like you are upgrading from the older version of Strategy to Succeed CRM.
         Please review <b>config/settings.yml</b> file and re-run<br><br><b>$ rake
         crm:settings:load</b><br><br> command in Rails development and production
         environments.

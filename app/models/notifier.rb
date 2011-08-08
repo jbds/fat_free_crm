@@ -21,9 +21,9 @@ class Notifier < ActionMailer::Base
   def password_reset_instructions(user)
     @edit_password_url = edit_password_url(user.perishable_token)
 
-    mail(:subject => "Fat Free CRM: " + I18n.t(:password_reset_instructions),
+    mail(:subject => "Strategy to Succeed CRM: " + I18n.t(:password_reset_instructions),
          :to => user.email,
-         :from => "Fat Free CRM <noreply@fatfreecrm.com>",
+         :from => "Strategy to Succeed CRM <noreply@fatfreecrm.com>",
          :sent_on => Time.now)
   end
 
