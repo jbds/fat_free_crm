@@ -139,12 +139,12 @@ task_calendar_with_time: true
 #
 #------------------------------------------------------------------------------
 account_category:
-  # - :affiliate
+  - :affiliate
   # - :competitor
   - :customer
   - :partner
   # - :reseller
-  # - :vendor
+  - :vendor
 
 account_category_color:
   :affiliate   : lavender
