@@ -23,7 +23,7 @@ class Notifier < ActionMailer::Base
 
     mail(:subject => "Strategy to Succeed CRM: " + I18n.t(:password_reset_instructions),
          :to => user.email,
-         :from => "Strategy to Succeed CRM <noreply@fatfreecrm.com>",
+         :from => "Strategy to Succeed CRM <noreply@s2scrm.co.uk>",
          :date => Time.now)
   end
 
