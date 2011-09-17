@@ -145,6 +145,7 @@ account_category:
   - :partner
   # - :reseller
   - :vendor
+  - "Intermediary - Banks"
 
 account_category_color:
   :affiliate   : lavender
