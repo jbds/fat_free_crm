@@ -126,6 +126,12 @@ task_calendar_with_time: true
   { :active : false, :text : :admin_tab_plugins,  :url : { :controller : "admin/plugins"  } }
 ]
 
+
+# Account Market Segment
+account_market_segment:
+    - "Enginerring and Manufacturing"
+    - "Travel, Leisure & Tourism"
+
 # Account Category. To add custom account type use string value, for example:
 #
 # account_category:
