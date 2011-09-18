@@ -6,17 +6,29 @@
           .label.top.req #{t :name}:
           = f.text_field :name, :style => "width:500px"
       %tr
-        %td
-          .label #{t :assigned_to}:
-          = collection_select :account, :assigned_to, @users, :id, :full_name, { :include_blank => t(:myself) }, { :style => "width:160px" }
-        %td= spacer
-        %td
-          .label #{t :category}:
-          = f.select :category, Setting.unroll(:account_category), { :selected => (@account.category || "other").to_sym, :include_blank => t(:other) }, { :style => "width:160px" }
-        %td= spacer
-        %td
-          .label #{t :rating}:
-          = rating_select "account[rating]", { :id => :account_rating, :selected => @account.rating, :style => "width:160px" }
+        %td{ :colspan => 5 }
+          %table{ :width => "100%", :cellpadding => 0, :cellspacing => 0 }
+      
+            %td
+              .label #{t :assigned_to}:
+              = collection_select :account, :assigned_to, @users, :id, :full_name, { :include_blank => t(:myself) }, { :style => "width:245px" }
+            %td= spacer
+            %td
+              .label #{t :rating}:
+              = rating_select "account[rating]", { :id => :account_rating, :selected => @account.rating, :style => "width:245px" }
+          
+      %tr
+        %td{ :colspan => 5 }
+          %table{ :width => "100%", :cellpadding => 0, :cellspacing => 0 }
+      
+            %td
+              .label.top Category:
+              = f.select :category, Setting.unroll(:account_category), { :selected => (@account.category || "other").to_sym, :include_blank => t(:other) }, { :style => "width:245px" }
+            %td= spacer
+            %td
+              .label.top Market Segment:
+              = f.select :market_segment, Setting.unroll(:account_market_segment), { :selected => (@account.category || "other").to_sym, :include_blank => t(:other) }, { :style => "width:245px" }
+          
 
       - if Setting.background_info && Setting.background_info.include?(:account)
         %tr
