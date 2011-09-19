@@ -129,8 +129,17 @@ task_calendar_with_time: true
 
 # Account Market Segment
 account_market_segment:
-    - "Enginerring and Manufacturing"
-    - "Travel, Leisure & Tourism"
+    - :business_support_training_consultancy
+    - :creative_digital_new_media
+    - :engineering_and_manufacturing
+    - :environmental_low_carbon
+    - :financial_services_accountancy
+    - :financial_services_banks
+    - :financial_services_other
+    - :food_and_drink
+    - :healthcare
+    - :hospitality_leisure_travel_tourism
+    - :legal_services
 
 # Account Category. To add custom account type use string value, for example:
 #
@@ -145,13 +154,14 @@ account_market_segment:
 #
 #------------------------------------------------------------------------------
 account_category:
-  - :affiliate
+  # - :affiliate
   # - :competitor
   - :customer
-  - :partner
+  # - :partner
   # - :reseller
-  - :vendor
-  - "Intermediary - Banks"
+  # - :vendor
+  - :supplier
+  - :intermediary
 
 account_category_color:
   :affiliate   : lavender
@@ -160,6 +170,8 @@ account_category_color:
   :partner     : bisque
   :reseller    : thistle
   :vendor      : skyblue
+  :supplier    : lavender
+  :intermediary: paleturquoise
 
 # Campaign Status. To add custom status use string value, for example:
 #

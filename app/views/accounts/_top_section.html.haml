@@ -33,11 +33,11 @@
             %tr
               %td
                 .label.top Category:
-                = f.select :category, Setting.unroll(:account_category), { :selected => (@account.category || "other").to_sym, :include_blank => t(:other) }, { :style => "width:245px" }
+                = f.select :category, Setting.unroll(:account_category), { :selected => (@account.category || "other").to_sym, :include_blank => t(:other) }, { :style => "width:160px" }
               %td= spacer
               %td
                 .label.top Market Segment:
-                = f.select :market_segment, Setting.unroll(:account_market_segment), { :selected => (@account.category || "other").to_sym, :include_blank => t(:other) }, { :style => "width:245px" }
+                = f.select :market_segment, Setting.unroll(:account_market_segment), { :selected => (@account.category || "other").to_sym, :include_blank => t(:other) }, { :style => "width:330px" }
           
 
       - if Setting.background_info && Setting.background_info.include?(:account)

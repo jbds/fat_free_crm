@@ -26,13 +26,27 @@ en-GB:
   admin_tab_users: Users
   admin_tab_settings: Settings
   admin_tab_plugins: Plugins
+  
+  financial_services_accountancy        : Financial Services - Accountancy
+  financial_services_banks              : Financial Services - Banking
+  financial_services_other              : Financial Services - Other
+  legal_services                        : Legal Services
+  business_support_training_consultancy : "Business Support, Training and Consultancy"
+  creative_digital_new_media            : "Creative, Digital and New Media"
+  environmental_low_carbon              : "Environmental, Low Carbon"
+  food_and_drink                        : Food and Drink
+  healthcare                            : Healthcare
+  hospitality_leisure_travel_tourism    : "Hospitality, Leisure, Travel and Tourism"
+  engineering_and_manufacturing         : Engineering and Manufacturing
 
-  affiliate: Associate
+  affiliate: Affiliate
   competitor: Competitor
   customer: Customer
   partner: Partner
   reseller: Reseller
-  vendor: Supplier
+  vendor: Vendor
+  supplier: Supplier
+  intermediary: Intermediary
 
   planned: Planned
   started: Started
