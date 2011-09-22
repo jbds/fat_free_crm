@@ -30,7 +30,8 @@
           %td
             .label #{t :fax}:
             = f.text_field :fax
-            %div{:style => "margin-top:6px"}
-              .check_box
-                = f.check_box :do_not_call, {}, true
-                #{t :do_not_call}
+            /
+              %div{:style => "margin-top:6px"}
+                .check_box
+                  = f.check_box :do_not_call, {}, true
+                  #{t :do_not_call}

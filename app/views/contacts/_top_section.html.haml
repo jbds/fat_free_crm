@@ -18,13 +18,20 @@
         %td
           .label.top.req #{t :last_name}:
           = f.text_field :last_name
+      %tr{:colspan => "3"}
+        %td
+          &nbsp;
       %tr
         %td
-          .label #{t :email}:
+          .label{:style => "display:inline"} #{t :email}:
+          = f.check_box :do_not_email, {}, true
+          #{t :do_not_email}
           = f.text_field :email
         %td= spacer
         %td
-          .label #{t :phone}:
+          .label{:style => "display:inline"} #{t :phone}:
+          = f.check_box :do_not_call, {}, true
+          #{t :do_not_call}
           = f.text_field :phone
 
     %table

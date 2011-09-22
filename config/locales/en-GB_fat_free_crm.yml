@@ -379,6 +379,7 @@ en-GB:
   web_presence: Web Presence
   web_presence_small: web presence
   works_at: "%{job_title} at %{company}"
+  do_not_email: Do not email
 
   # Views -> Leads.
   #----------------------------------------------------------------------------
