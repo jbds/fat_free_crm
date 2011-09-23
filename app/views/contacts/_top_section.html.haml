@@ -23,15 +23,17 @@
           &nbsp;
       %tr
         %td
-          .label{:style => "display:inline"} #{t :email}:
+          .label{:style => "display:inline; vertical-align:bottom;"} #{t :email}:
+          &nbsp;&nbsp;&nbsp;&nbsp;
           = f.check_box :do_not_email, {}, true
-          #{t :do_not_email}
+          .label{:style => "display:inline; vertical-align:bottom;"} #{t :do_not_email}
           = f.text_field :email
         %td= spacer
         %td
-          .label{:style => "display:inline"} #{t :phone}:
+          .label{:style => "display:inline; vertical-align:bottom;"} #{t :phone}:
+          &nbsp;&nbsp;&nbsp;&nbsp;
           = f.check_box :do_not_call, {}, true
-          #{t :do_not_call}
+          .label{:style => "display:inline; vertical-align:bottom;"} #{t :do_not_call}
           = f.text_field :phone
 
     %table
